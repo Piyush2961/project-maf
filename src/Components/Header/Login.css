@@ -1,0 +1,98 @@
+.form{
+    width: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    padding: 25px;
+    transition: .3s ease;
+}
+
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #F473B9;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #F473B9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #F473B9;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #F473B9;
+}
+.btnn button{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #F473B9;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.submit__button{
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#F473B9;
+    transition: 0.4s ease;
+    margin: 8px 3px;
+    padding:8px 16px;
+    border-radius: 10px;
+    border:none;
+
+}
+.submit__button:hover{
+    color:white;
+    background-color: #F473B9;
+    border:none;
+}

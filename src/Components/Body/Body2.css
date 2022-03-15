@@ -1,0 +1,27 @@
+body{
+    background-color: #ffff;
+}
+.brands__div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.brand__img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width:200px;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px
+}
+.brand__outer{
+    margin:10px auto;
+}
+.header__div__p{
+    margin:5rem auto;
+    font-size: 2.5rem;
+    word-spacing: 1.2rem;
+    letter-spacing: .4rem;
+    color:#C06C84;
+}
