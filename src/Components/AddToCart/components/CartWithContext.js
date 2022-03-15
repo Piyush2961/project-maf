@@ -35,7 +35,14 @@ const CartWithContext = () => {
           <h3>
             Cart Total : <span>{amount}</span>
           </h3>
-          <Button size="large" type="primary">
+
+          <button type="button" style={{ borderRadius: "1.2rem"}} >Checkout</button>
+          <button type="button" style={{ background: "red" , marginLeft: "1rem", borderRadius: "1.2rem"}}  onClick={() => {
+              dispatch({
+                type: CLEAR_ALL,
+              });
+            }}>Clear All</button>
+          {/* <Button size="large" type="primary">
             Checkout
           </Button>
           <Button
@@ -49,7 +56,7 @@ const CartWithContext = () => {
             className="clear-cart"
           >
             Clear All
-          </Button>
+          </Button> */}
         </div>
       </section>
     </>
