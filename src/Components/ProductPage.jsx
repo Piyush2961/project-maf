@@ -11,27 +11,6 @@ const ProductPage = () => {
   const productData = useSelector((state)=> state.getLoginData);
   console.log("pro",productData);
   const id = useSelector((state)=> state.getProductId);
-
-  var axios = require('axios');
-  var data = '';
-  var config = {
-    method: 'get',
-    url: 'https://maf-admin-api.herokuapp.com/api/items',
-    headers: { },
-    data : data
-  };
-  
-  useEffect(() => {
-    axios(config)
-    .then(function (response) {
-      dispatch(setProductdata(response.data.data.items));
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  }, [])
-  
-
   const Products = useSelector((state)=> state.getProductData);
 
   console.log("productData",Products);
