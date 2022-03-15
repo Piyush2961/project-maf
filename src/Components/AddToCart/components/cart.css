@@ -248,6 +248,9 @@
   color: #000000;
   margin-left: 1rem;
 }
+.scroll >div{
+  height: 370px;
+}
 
 .card-total button {
   border: none;
